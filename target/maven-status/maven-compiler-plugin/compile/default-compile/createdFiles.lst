@@ -1,1 +1,5 @@
+com\event\Event\controller\ExampleController.class
+com\event\Event\Repository\Repository.class
+com\event\Event\Service\EventService.class
 com\event\Event\EventApplication.class
+com\event\Event\Model\Model.class
