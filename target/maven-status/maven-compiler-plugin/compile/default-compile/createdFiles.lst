@@ -4,4 +4,4 @@ com\event\Event\Service\EventService.class
 com\event\Event\EventApplication.class
 com\event\Event\Model\User.class
 com\event\Event\Model\Model.class
-com\event\Event\Service\RegistrationService.class
+com\event\Event\Service\UserService.class
