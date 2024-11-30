@@ -1,11 +1,14 @@
 package com.event.Event.controller;
 
+import com.event.Event.Model.Event;
 import com.event.Event.Model.User;
 import com.event.Event.Service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
+
+import java.util.List;
 
 @RestController
 @RequestMapping("/api")
@@ -29,5 +32,5 @@ UserService userService;
     }
 
     @GetMapping("/login")
-    public String login(@RequestParam String email,@RequestParam String password){return userService.CheckLogin(email,password);}
+    public List<Event> login(@RequestParam String email, @RequestParam String password){return userService.CheckLogin(email,password);}
 }

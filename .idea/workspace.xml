@@ -5,10 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e203098-978f-4d73-a8b8-e11670ae9fba" name="Changes" comment="sql db added">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/event/Event/Model/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/event/Event/controller/EventController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/event/Event/Repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/event/Event/Repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/event/Event/Service/RegistrationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/event/Event/Service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/event/Event/Service/EventService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/event/Event/Service/EventService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/event/Event/Service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/event/Event/Service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/event/Event/controller/ExampleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/event/Event/controller/ExampleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/event/Event/Service/EventService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/event/Event/Service/EventService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/event/Event/controller/ExampleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/event/Event/controller/ExampleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
