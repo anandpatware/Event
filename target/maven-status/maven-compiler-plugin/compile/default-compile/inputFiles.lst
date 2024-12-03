@@ -1,5 +1,10 @@
+C:\Users\anand\Desktop\Event\src\main\java\com\event\Event\controller\EventController.java
 C:\Users\anand\Desktop\Event\src\main\java\com\event\Event\controller\ExampleController.java
 C:\Users\anand\Desktop\Event\src\main\java\com\event\Event\EventApplication.java
+C:\Users\anand\Desktop\Event\src\main\java\com\event\Event\Model\Event.java
 C:\Users\anand\Desktop\Event\src\main\java\com\event\Event\Model\Model.java
-C:\Users\anand\Desktop\Event\src\main\java\com\event\Event\Repository\Repository.java
+C:\Users\anand\Desktop\Event\src\main\java\com\event\Event\Model\User.java
+C:\Users\anand\Desktop\Event\src\main\java\com\event\Event\Repository\EventRepository.java
+C:\Users\anand\Desktop\Event\src\main\java\com\event\Event\Repository\UserRepository.java
 C:\Users\anand\Desktop\Event\src\main\java\com\event\Event\Service\EventService.java
+C:\Users\anand\Desktop\Event\src\main\java\com\event\Event\Service\UserService.java
