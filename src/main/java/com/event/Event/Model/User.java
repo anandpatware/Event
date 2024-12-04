@@ -14,4 +14,5 @@ public class User {
     public String email;
     public String contactNumber;
     public String password;
+    public boolean isAdmin;
 }
