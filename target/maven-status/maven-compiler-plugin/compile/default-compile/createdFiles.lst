@@ -4,6 +4,7 @@ com\event\Event\Service\EventService.class
 com\event\Event\EventApplication.class
 com\event\Event\Model\Event.class
 com\event\Event\controller\EventController.class
+com\event\Event\Model\LoginResponseDTO.class
 com\event\Event\Model\User.class
 com\event\Event\Model\Model.class
 com\event\Event\Repository\EventRepository.class

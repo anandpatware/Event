@@ -1,6 +1,7 @@
 package com.event.Event.controller;
 
 import com.event.Event.Model.Event;
+import com.event.Event.Model.LoginResponseDTO;
 import com.event.Event.Model.User;
 import com.event.Event.Service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -33,19 +34,21 @@ UserService userService;
     public String register(@RequestBody User user, @RequestParam(required = false) String secretKey) {
         // Check if it's an admin registration
         if (secretKey != null && secretKey.equals(adminSecretKey)) {
-            user.isAdmin = true;
+            user.setIsAdmin(true);  // Use setter to set isAdmin
         } else {
-            user.isAdmin = false;
+            user.setIsAdmin(false);
         }
 
         userService.DoRegisteration(user);
 
-        return user.isAdmin ? "Admin registered successfully!" : "User registered successfully!";
+        return user.isAdmin() ? "Admin registered successfully!" : "User registered successfully!";
     }
 
     @GetMapping("/login")
-    public List<Event> login(@RequestParam String email, @RequestParam String password){
+    public LoginResponseDTO login(@RequestParam String email, @RequestParam String password){
         //if login is for admin then send list of all user expect admin and list of all events.
+
+
         return userService.CheckLogin(email,password);
     }
 }
