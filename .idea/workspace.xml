@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e203098-978f-4d73-a8b8-e11670ae9fba" name="Changes" comment="sql db added">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/event/Event/Model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/event/Event/Model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/event/Event/Repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/event/Event/Repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/event/Event/Service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/event/Event/Service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/event/Event/controller/ExampleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/event/Event/controller/ExampleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +70,7 @@
     "Maven.Event [install].executor": "Run",
     "Maven.Event [org.springframework.boot:spring-boot-maven-plugin:3.3.5:run].executor": "Run",
     "Maven.Event.executor": "Debug",
-    "Maven.Run Spring Boot.executor": "Debug",
+    "Maven.Run Spring Boot.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "dart.analysis.tool.window.visible": "false",

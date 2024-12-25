@@ -29,7 +29,7 @@ UserService userService;
         return "Hello, Swagger!";
     }
 
-
+    @CrossOrigin(origins = "http://localhost:5173")
     @PostMapping("/register")
     public String register(@RequestBody User user, @RequestParam(required = false) String secretKey) {
         // Check if it's an admin registration
